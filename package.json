@@ -1,0 +1,15 @@
+{
+  "name": "startups",
+  "version": "1.0.0",
+  "description": "Interview Assignment - Handaji Tech Solutions Private Limited",
+  "main": "server.js",
+  "author": "Abhishek K",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
+  }
+}

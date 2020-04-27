@@ -15,6 +15,10 @@ mongoose
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
 
+// API routes
+const startupsRoute = require("./api/routes/startupsRoute");
+app.use("/api/", startupsRoute);
+
 app.use(express.static("public"));
 
 app.get("*", (req, res) =>

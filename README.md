@@ -5,3 +5,6 @@ Handaji Tech Solutions Private Limited - Assignment
 > yarn install
 
 > yarn dev
+
+## Open in browser
+> http://localhost:3000 

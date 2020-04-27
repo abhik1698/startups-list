@@ -7,4 +7,4 @@ var InfoSchema = new Schema({
   created: { type: Date, default: Date.now },
 });
 
-module.exports = mongoose.model("Information", InfoSchema);
+module.exports = mongoose.model("Startup", InfoSchema);
